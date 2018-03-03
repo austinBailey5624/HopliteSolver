@@ -7,9 +7,13 @@ by [Magma Fortress](http://www.magmafortress.com/)
 ## Language
 
 	Java, not because it's better than C++, but it is the language used in my new job I'm getting ready for
+	
 ## Goals
 
  - [ ] Design Hexmap Data structure
+   - [x] Decide on Coordinate system (Cube)
+   - [ ] Implement basic example using Cube coordinate system
+   - [ ] Develop protoactor & movement in basic example
  - [ ] Implement Hexmap Data Structure
  - [ ] Determine level file format
  - [ ] Design Level Reader (which utilizes above file format)
@@ -26,6 +30,14 @@ by [Magma Fortress](http://www.magmafortress.com/)
  - [ ] Run stimulation over thousands of games for each AI
  - [ ] Compare which AI stratedgy is most successful
  - [ ] Pwn the leaderboard
+ 
+ ### Coordinate system used
+ 
+ This project uses the Cube coordinate system, defined in [This article](https://www.redblobgames.com/grids/hexagons/)
+ 
+ ### Coding tools used
+ 
+ JUnit for unit testing
  
  ## Contributor(s)
  

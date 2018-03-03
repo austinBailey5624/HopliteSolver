@@ -8,6 +8,9 @@ public class HexNode
 	//Actor currnentActor //cant implement yet actors isnt finished
 	private boolean m_isLava;
 	private HexNode[] m_neighbors;//indexed from top going clockwise-always size 6;
+	private int m_xcord;
+	private int m_ycord;
+	private int m_zcord;
 	//gets the character that represents the hexnode
 	char getRepresentChar()
 	{
@@ -25,5 +28,13 @@ public class HexNode
 	{
 		m_isLava = false;
 		
+	}
+	
+	public HexNode(int x, int y, int z)
+	{
+		m_isLava = false;
+		m_xcord = x;
+		m_ycord = y;
+		m_zcord = z;
 	}
 }
